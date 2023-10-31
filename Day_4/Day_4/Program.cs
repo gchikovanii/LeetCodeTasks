@@ -72,29 +72,29 @@
 
 
 
-using System.Text;
+//using System.Text;
 
-string AddBinary(string a, string b)
-{
-    StringBuilder sb = new StringBuilder();
-    int i = a.Length - 1;
-    int j = b.Length - 1;
-    int carriage = 0;
+//string AddBinary(string a, string b)
+//{
+//    StringBuilder sb = new StringBuilder();
+//    int i = a.Length - 1;
+//    int j = b.Length - 1;
+//    int carriage = 0;
 
-    for (; i >= 0 || j >= 0; i--, j--) { 
-    
-        carriage += (i >= 0 ? a[i] - 48 : 0);   
-        carriage += (j >= 0 ? b[j] - 48 : 0);
+//    for (; i >= 0 || j >= 0; i--, j--) { 
 
-        sb.Insert(0, carriage % 2);
-        carriage = carriage / 2;
-    }
+//        carriage += (i >= 0 ? a[i] - 48 : 0);   
+//        carriage += (j >= 0 ? b[j] - 48 : 0);
 
-    if (carriage > 0)
-        sb.Insert(0, carriage);
+//        sb.Insert(0, carriage % 2);
+//        carriage = carriage / 2;
+//    }
 
-    return sb.ToString();
-}
+//    if (carriage > 0)
+//        sb.Insert(0, carriage);
+
+//    return sb.ToString();
+//}
 
 
 
@@ -133,6 +133,109 @@ string AddBinary(string a, string b)
 //Console.WriteLine(MySqrt(4));
 //Console.WriteLine(MySqrt(8));
 //Console.WriteLine(MySqrt(4));
+
+
+#endregion
+
+#region Task4
+
+//using System.Threading;
+
+//You are climbing a staircase. It takes n steps to reach the top.
+
+//Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
+
+
+
+//Example 1:
+
+//Input: n = 2
+//Output: 2
+//Explanation: There are two ways to climb to the top.
+//1. 1 step + 1 step
+//2. 2 steps
+//Example 2:
+
+//Input: n = 3
+//Output: 3
+//Explanation: There are three ways to climb to the top.
+//1. 1 step + 1 step + 1 step
+//2. 1 step + 2 steps
+//3. 2 steps + 1 step
+
+
+//int ClimbStairs(int n)
+//{
+//int fibonacciCount = 48;
+//int firstNum = 0;
+//int secondNum = 1;
+//int swap = 0;
+
+//int[] fibonacci = new int[fibonacciCount];
+//fibonacci[0] = firstNum;
+//fibonacci[1] = secondNum;
+//for (int i = 2; i < fibonacciCount; i++)
+//{
+//    swap = firstNum + secondNum;
+//    firstNum = secondNum;
+//    secondNum = swap;
+//    fibonacci[i] = swap;
+//}
+//return fibonacci[n + 1];
+//}
+
+//Console.WriteLine(ClimbStairs(2));
+//Console.WriteLine(ClimbStairs(44));
+
+
+
+
+
+
+
+
+
+#endregion
+
+
+#region Task5
+
+//A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing
+//    all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.
+
+//Given a string s, return true if it is a palindrome, or false otherwise.
+
+
+
+//Example 1:
+
+//Input: s = "A man, a plan, a canal: Panama"
+//Output: true
+//Explanation: "amanaplanacanalpanama" is a palindrome.
+//Example 2:
+
+//Input: s = "race a car"
+//Output: false
+//Explanation: "raceacar" is not a palindrome.
+//Example 3:
+
+//Input: s = " "
+//Output: true
+//Explanation: s is an empty string "" after removing non-alphanumeric characters.
+//Since an empty string reads the same forward and backward, it is a palindrome.
+
+
+//bool IsPalindrome(string s)
+//{
+//    var result = s.ToUpper().Where(i => char.IsLetterOrDigit(i));
+//    return result.Reverse().SequenceEqual(result);
+//}
+//Console.WriteLine(IsPalindrome("A man, a plan, a canal: Panama"));
+//Console.WriteLine(IsPalindrome("race a car"));
+//Console.WriteLine(IsPalindrome(" "));
+
+
+
 
 
 #endregion

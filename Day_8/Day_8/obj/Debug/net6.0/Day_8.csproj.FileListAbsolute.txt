@@ -1,0 +1,14 @@
+D:\RandomTask\Day_8\Day_8\bin\Debug\net6.0\Day_8.exe
+D:\RandomTask\Day_8\Day_8\bin\Debug\net6.0\Day_8.deps.json
+D:\RandomTask\Day_8\Day_8\bin\Debug\net6.0\Day_8.runtimeconfig.json
+D:\RandomTask\Day_8\Day_8\bin\Debug\net6.0\Day_8.dll
+D:\RandomTask\Day_8\Day_8\bin\Debug\net6.0\Day_8.pdb
+D:\RandomTask\Day_8\Day_8\obj\Debug\net6.0\Day_8.GeneratedMSBuildEditorConfig.editorconfig
+D:\RandomTask\Day_8\Day_8\obj\Debug\net6.0\Day_8.AssemblyInfoInputs.cache
+D:\RandomTask\Day_8\Day_8\obj\Debug\net6.0\Day_8.AssemblyInfo.cs
+D:\RandomTask\Day_8\Day_8\obj\Debug\net6.0\Day_8.csproj.CoreCompileInputs.cache
+D:\RandomTask\Day_8\Day_8\obj\Debug\net6.0\Day_8.dll
+D:\RandomTask\Day_8\Day_8\obj\Debug\net6.0\refint\Day_8.dll
+D:\RandomTask\Day_8\Day_8\obj\Debug\net6.0\Day_8.pdb
+D:\RandomTask\Day_8\Day_8\obj\Debug\net6.0\Day_8.genruntimeconfig.cache
+D:\RandomTask\Day_8\Day_8\obj\Debug\net6.0\ref\Day_8.dll
